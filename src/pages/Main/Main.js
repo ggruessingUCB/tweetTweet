@@ -3,6 +3,8 @@ import helpers from "../../utils/helpers.js"
 import Card from "../../components/Card"
 import Form from "../../components/Form"
 import Splash from "../../components/Splash"
+import Footer from "../../components/Footer"
+import "./Main.css"
 
 export default class Main extends Component {
 
@@ -27,7 +29,7 @@ sendSearch(query) {
 
 render(){
   return (
-      <div>
+      <div className="container">
       <Form sendSearch={this.sendSearch}/>
       {this.state.searchResult ?
         <Card results={this.state.searchResult}/>

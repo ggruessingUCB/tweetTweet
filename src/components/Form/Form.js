@@ -12,8 +12,17 @@ export default class Form extends Component {
 
 render(){
   return (
-      <div>
-      I AM FERRMMM
+      <div className="col-md-12">
+        <div className="row searchWrapper">
+          <div className="col-md-6">
+        SearchySearch
+          </div>
+          <div className="cold-md-6">
+            <form className="searchForm">
+              <input onClick={this.props.sendSearch} placeholder="Seach Tweets" name="query" />
+            </form>
+          </div>
+        </div>
       </div>
     )
 }
