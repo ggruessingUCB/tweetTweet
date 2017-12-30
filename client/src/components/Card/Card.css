@@ -1,0 +1,16 @@
+.cardCont {
+  border-radius: 3px;
+  background: white;
+  opacity: 0.9;
+  margin: 5px;
+}
+.imgCont{
+ margin: 10px 0px;
+}
+.textCont{
+  margin-top: 3px;
+}
+.dataCont {
+  padding: 15px;
+  color: grey;
+}

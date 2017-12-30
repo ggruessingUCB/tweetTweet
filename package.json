@@ -1,17 +1,37 @@
 {
-  "name": "twit",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "axios": "^0.17.1",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-scripts": "1.0.17"
-  },
+  "name": "tweettweet",
+  "version": "1.0.0",
+  "description": "Using the twitter API to make a (nearly) single page application that populates with searched tweets.",
+  "main": "server.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js & npm run client",
+    "client": "node scripts/start-client.js",
+    "build": "node scripts/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggruessingUCB/tweetTweet.git"
+  },
+  "keywords": [
+    "tweet",
+    "chirp",
+    "cries",
+    "for",
+    "attention",
+    "birds?"
+  ],
+  "author": "G.H. Gruessing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ggruessingUCB/tweetTweet/issues"
+  },
+  "homepage": "https://github.com/ggruessingUCB/tweetTweet#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "nodemon": "^1.14.6",
+    "path": "^0.12.7",
+    "twitter": "^1.7.1"
   }
 }
