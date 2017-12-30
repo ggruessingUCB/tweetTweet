@@ -7,7 +7,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-Clone to a local repository, open terminal at root, type: "npm i"
+Clone to a local repository, open terminal at root, type: "npm i" in BOTH root of the repo and the client folder.
 
 ## Usage
 
